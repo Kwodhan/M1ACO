@@ -9,7 +9,7 @@ import test_TimeMachine.TestTimeMacro;
 import test_enregistrement.TestEnregistrement;
 
 @RunWith(Suite.class)
-@SuiteClasses({TestTime.class,TestTimeMacro.class,TestEnregistrement.class, TestEditeurSimple.class,TestEnregistrement.class })
+@SuiteClasses({TestTime.class,TestEnregistrement.class,TestTimeMacro.class, TestEditeurSimple.class})
 public class AllTests {
 	 
 }

@@ -56,6 +56,10 @@ public class Selection {
 		this.debut = this.debut > buffer.length() ? buffer.length() : this.debut;
 
 		this.fin = this.fin > buffer.length() ? buffer.length() : this.fin;
+		
+		this.debut = this.debut < 0 ? 0 : this.debut;
+
+		this.fin = this.fin < 0 ? 0 : this.fin;
 
 	}
 
