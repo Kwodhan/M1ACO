@@ -2,7 +2,7 @@ package commande;
 
 import enregistrement.ItfMemento;
 import enregistrement.MementoVide;
-import timeMachine.TimeMachine;
+import enregistrement.TimeMachine;
 
 /**
  * La commande qui permet de defaire

@@ -1,10 +1,9 @@
-package timeMachine;
+package enregistrement;
 
 import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 
-import enregistrement.MementoEtatBuffer;
 import receiver.ItfMoteurEditeur;
 
 /**

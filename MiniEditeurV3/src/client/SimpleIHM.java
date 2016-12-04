@@ -15,9 +15,9 @@ import commande.ComSupprimer;
 import commande.ComUndo;
 import commande.ItfCommande;
 import enregistrement.Enregistreur;
+import enregistrement.TimeMachine;
 import receiver.EditeurSimple;
 import receiver.ItfMoteurEditeur;
-import timeMachine.TimeMachine;
 /**
  * Classe qui contient toutes les commandes possible
  * Elle contient l'enregistreur de macro et le gestionnaire des actions

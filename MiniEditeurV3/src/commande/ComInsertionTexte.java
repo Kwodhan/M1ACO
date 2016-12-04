@@ -49,7 +49,6 @@ public class ComInsertionTexte implements ItfCommande {
 	public void execute() {
 		System.out.println("insertion : " + this.ihm.getInput());
 		this.editeur.insertionTexte(this.ihm.getInput());
-		System.out.println(this.ihm.getInput());
 		this.enregistreur.Ajout(this);
 
 	}
