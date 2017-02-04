@@ -4,6 +4,10 @@
 
 MiniEditeur de texte
 
-##Objectif
+## Objectif
 
 Pattern memento, observer, commande
+
+## Note
+
+18/20
